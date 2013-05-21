@@ -46,6 +46,7 @@ public class Week1Homework4 {
         configuration.setClassForTemplateLoading(
                 Week1Homework4.class, "/");
 
+        //Comment added by sajeevth
         MongoClient client = new MongoClient(new ServerAddress("localhost", 27017));
 
         DB database = client.getDB("m101");
